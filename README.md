@@ -7,12 +7,13 @@ This is a landing page for a fictional website design and development studio. It
 Internet connection and a browser is required to deliver the webpage.
 ## Technologies Used
 I used;
--HTML
--CSS, 
--Javascript
--jQuery
+- HTML
+- CSS, 
+- Javascript
+- jQuery
 ## Support and contact details
 In case of comments, compliments or contributions to the work kindly email me at mburiahb@gmail.com
 ### License
 -MIT license
+
 Copyright **mburiah**
