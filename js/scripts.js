@@ -13,35 +13,35 @@ $(function () {
 	});
 
 	jQuery('div#project1').hover(function () {
-		jQuery('div.projectName1').toggle();
+		jQuery('p.projectName1').toggle();
 		jQuery('img.projectImage1').toggleClass('opaque1');
 	});
 	jQuery('div#project2').hover(function () {
-		jQuery('div.projectName2').toggle();
+		jQuery('p.projectName2').toggle();
 		jQuery('img.projectImage2').toggleClass('opaque1');		
 	});
 	jQuery('div#project3').hover(function () {
-		jQuery('div.projectName3').toggle();
+		jQuery('p.projectName3').toggle();
 		jQuery('img.projectImage3').toggleClass('opaque1');		
 	});
 	jQuery('div#project4').hover(function () {
-		jQuery('div.projectName4').toggle();
+		jQuery('p.projectName4').toggle();
 		jQuery('img.projectImage4').toggleClass('opaque1');		
 	});
 	jQuery('div#project5').hover(function () {
-		jQuery('div.projectName5').toggle();
+		jQuery('p.projectName5').toggle();
 		jQuery('img.projectImage5').toggleClass('opaque1');		
 	});
 	jQuery('div#project6').hover(function () {
-		jQuery('div.projectName6').toggle();
+		jQuery('p.projectName6').toggle();
 		jQuery('img.projectImage6').toggleClass('opaque1');		
 	});
 	jQuery('div#project7').hover(function () {
-		jQuery('div.projectName7').toggle();
+		jQuery('p.projectName7').toggle();
 		jQuery('img.projectImage7').toggleClass('opaque1');		
 	});
 	jQuery('div#project8').hover(function () {
-		jQuery('div.projectName8').toggle();
+		jQuery('p.projectName8').toggle();
 		jQuery('img.projectImage8').toggleClass('opaque1');		
 	});
 	
