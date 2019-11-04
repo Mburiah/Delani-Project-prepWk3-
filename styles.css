@@ -10,3 +10,7 @@ header {
 .services {
     background-image: url("images/background2.jpg");
 }
+h2 {
+    text-align:center;
+}
+
