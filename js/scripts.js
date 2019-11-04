@@ -45,7 +45,7 @@ $(function () {
 		jQuery('img.projectImage8').toggleClass('opaque1');		
 	});
 	
-	jQuery('form#contact-form').submit(function (event) {
+	jQuery('#contact-form').submit(function (event) {
 		event.preventDefault();
 		var userName = document.getElementById('name').value;
 		alert(userName + ' we have received your message. Thank you for reaching out to us.');
