@@ -10,19 +10,19 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <header>
             <img src="images/logo.png" alt="logo"></img> 
-            <P><h1>WELCOME TO DELANI STUDIO.</h1></P>
+            <P><h1>WELCOME <br> TO DELANI STUDIO.</h1></P>
             <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
             <br>
             <img src="images/mouse_click.png" alt="mouse click"></img>
         </header>
         <div class="about">
             <h2>ABOUT US</h2>
-            <P>When you work with us, you are part of a team of committed collaborators. All aspects of our software development processes are integrated, interactive and agile.
-                Our approach unifies design, development and product management to create exceptional products.
-                We start each project by understanding your business goals, the user's needs and the product requirements.
+            <P>When you work with us, you are part of a team of committed collaborators. All aspects of our software development processes are integrated, interactive and agile.<br>
+                Our approach unifies design, development and product management to create exceptional products.<br>
+                We start each project by understanding your business goals, the user's needs and the product requirements, <br>
                 Then we help translate them into effective and elegant solutions. 
             </P>
         </div>
@@ -37,21 +37,28 @@
         <div class="committed">
             <h1>WHAT WE DO</h2>
             <div class="row text-center">
-                <div class="col-md-4">
+                <div class="col-md-4" id="design">
+                    <h3>DESIGN</h3>
                     <img src="images/services_icons/design_icon.png" alt="design"></img>
                     <p>Our design practice offers full range of services, like; branding strategy, interaction and visual design, user experience testing. Our designers
-                        create and implement visual designs and workflows, solicit your feedback and work with you to meet your requirements. </p>
-                </div>
-                <div class="col-md-4">
-                    <img src="images/services_icons/dev_icon.png" alt="development"></img>
-                    <p>
-                     We have fluent engineers, latest enterprise, mobile and web development technologies. They collaborate with your team to write, test and improve code daily using proven 
-                     practice such as pair programming and test-driven development.
+                        create and implement visual designs and workflows, solicit your feedback and work with you to meet your requirements. 
                     </p>
                 </div>
-                <div class="col-md-4"><img src="images/services_icons/product_icon.png" alt="products"></img>
+                <div class="col-md-4">
+                    <div id="dev">
+                        <h3>DEVELOPMENT</h3>
+                        <img src="images/services_icons/dev_icon.png" alt="development"></img>
+                        <p>
+                            We have fluent engineers, latest enterprise, mobile and web development technologies. They collaborate with your team to write, test and improve code daily using proven 
+                            practice such as pair programming and test-driven development.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4" id="products">
+                    <h3>PRODUCTS</h3>
+                    <img src="images/services_icons/product_icon.png" alt="products"></img>
                     <p>
-                       Itetative planning and development which allows for changesas business requirements evolve. We are constantly coding and testing. Products we build are always ready.  
+                       Iterative planning and development which allows for changes as business requirements evolve. We are constantly coding and testing. Products we build are always ready.  
                     </p>
                 </div>
             </div>
@@ -59,7 +66,7 @@
         <div class="portfolio">
             <h2>PORTFOLIO</h2>
             <div class="row text-center">
-                <div class="col-md-3">
+                <div class="col-md-3" id="project1">
                     <img src="images/portfolio/img1.jpg" alt="1st image">
                 </div>
                 <div class="col-md-3">
@@ -86,26 +93,26 @@
             </div>
         </div>
         
-        <div class="container-fluid text-white text-center contact mb-5">
+        <div class="container-fluid text-white text-center contact mb-5" id="contacts">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-uppercase mt-5">CONTACT US.</h2>
+                    <h2 class="text-uppercase mt-5"> CONTACT US </h2>
                 </div>
             </div>
-            <div>
-                <form id="contact-form">
-                    <div class="row mt-3 user-input">
-                        <div class="col">
-                            <input type="text" class="form-control" name="NAME" id="name" placeholder="Name...">
-                        </div>
-                        <div class="col">
-                            <input type="text" class="form-control" name="EMAIL" id="email" placeholder="Email...">
-                        </div>
+            <form id="contact-form">
+                <div class="row mt-3 user-input">
+                    <div class="col">
+                        <input type="text" class="form-control" name="NAME" id="name" placeholder="Name...">
                     </div>
+                    <div class="col">
+                        <input type="text" class="form-control" name="EMAIL" id="email" placeholder="Email...">
+                    </div>
+                </div>
+
                     <div class="form-group mt-4 user-input">
                         <textarea id="message" cols="30" rows="9" class="form-control" placeholder="Your message here..."></textarea>
                     </div>
-                    <button type="submit" class="btn btn-light mt-4">Submit</button>
+                <button type="submit" class="btn btn-light mt-4">Submit</button>
             </form>
         </div>
         <footer>
