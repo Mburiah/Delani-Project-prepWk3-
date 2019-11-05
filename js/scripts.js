@@ -1,6 +1,4 @@
 
-	
-
 	$(document).ready(function(){
 		// What we do toggle
 
@@ -14,27 +12,28 @@
 			$(".design").show();
 			$(this).hide();
 
-		})		// ### Design ###
+		});
+			// ### products ###
 		$(".products").click(function(){
 			$(".products-description").show();
 			$(this).hide();
-		})
+		});
 
 		$(".products-description").click(function(){
 			$(".products").show();
 			$(this).hide();
-		})
+		});
 
-				// ### Design ###
-				$(".development").click(function(){
-					$(".development-description").show();
-					$(this).hide();
-				})
+			// ### development ###
+		$(".development").click(function(){
+			$(".development-description").show();
+			$(this).hide();
+		});
 		
-				$(".development-description").click(function(){
-					$(".development").show();
-					$(this).hide();
-				})
+		$(".development-description").click(function(){
+			$(".development").show();
+			$(this).hide();
+		});
 
 
 
@@ -104,5 +103,6 @@
 			$(".projectName8").hide(1000);
 		})
 
-
 	})
+
+	
