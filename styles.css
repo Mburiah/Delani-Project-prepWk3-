@@ -1,3 +1,6 @@
+body {
+    font-family: 'Dosis', sans-serif;
+}
 header {
     background-image: url("images/background1.jpg");
     height: 50vh;
@@ -16,6 +19,7 @@ h2 {
 }
 #contacts{
     background-image: url("images/background3.jpg");
+    margin: 20px;
 }
 .services {
     text-align: center;
@@ -29,4 +33,19 @@ h2 {
 }
 .committed h2 {
     text-align: center;
+}
+
+.image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    position: absolute;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    display: none;
+
 }
