@@ -10,6 +10,10 @@ header {
     text-align: center;
     
 }
+.design-description,.development-description, .products-description {
+    display: none;
+}
+
 .services {
     background-image: url("images/background2.jpg");
     height: 50vh;
@@ -35,6 +39,10 @@ h2 {
     text-align: center;
 }
 
+.committed {
+    padding:100px;
+}
+
 .image {
     position: relative;
     display: flex;
@@ -47,5 +55,6 @@ h2 {
     color: #fff;
     background: rgba(0,0,0,0.5);
     display: none;
+    padding: 2rem;
 
 }
