@@ -1,9 +1,10 @@
 body {
     font-family: 'Dosis', sans-serif;
+    text-align: center;
 }
 header {
     background-image: url("images/background1.jpg");
-    height: 50vh;
+    height: 100vh;
     display: block;
     color: white;
     justify-content: center;
@@ -14,6 +15,7 @@ header {
     display: none;
 }
 
+
 .services {
     background-image: url("images/background2.jpg");
     height: 50vh;
@@ -23,7 +25,10 @@ h2 {
 }
 #contacts{
     background-image: url("images/background3.jpg");
+    padding: 100px;
     margin: 20px;
+    border-collapse: collapse;
+    
 }
 .services {
     text-align: center;
@@ -58,3 +63,4 @@ h2 {
     padding: 2rem;
 
 }
+
