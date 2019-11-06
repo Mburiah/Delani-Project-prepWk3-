@@ -10,14 +10,16 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-    <title>Delani Studio &copy;</title>
+    <title>Delani Studio &copy;</title> 
 </head>
 <body>
     <div class="container-fluid">
         <header>
-            <img src="images/logo.png" alt="logo"></img> 
-            <P><h1>WELCOME <br> TO DELANI STUDIO.</h1></P>
-            <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+            <div class="pt-5">
+                <img src="images/logo.png" alt="logo"></img>
+                <P><h1>WELCOME <br> TO DELANI STUDIO.</h1></P>
+                <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+            </div>
             <br>
             <img src="images/mouse_click.png" alt="mouse click"></img>
         </header>
@@ -38,7 +40,7 @@
             </p>
         </div>
         <div class="committed">
-            <h1>WHAT WE DO</h2>
+            <h1>WHAT WE DO</h2><br>
             <div class="row text-center">
                 <div class="col-md-4">
                     <div id="design">
@@ -71,25 +73,24 @@
         <div class="portfolio">
             <h2>PORTFOLIO</h2>
             <div class="row text-center">
-                <div class="col-md-3 image projectImage1">
+                <div class="col-md-3 image mb-3 projectImage1">
                         
                         <img src="images/portfolio/img1.jpg" alt="1st image">
                         <p class="projectName1 description"> BLANK GREY</p>
                     </div>
-                <div class="col-md-3 image">
+                <div class="col-md-3 image mb-3">
                        
                         <img src="images/portfolio/img2.jpg" alt="2nd image" class="projectImage2">
                         <P class="projectName2  description">ONTARIO SECURITY</P>
                     </div>
                 
-                <div class="col-md-3 image">
-                    
+                <div class="col-md-3 image mb-3">
                         
                         <img src="images/portfolio/img3.jpg" alt="3rd image" class="projectImage3 ">
                         <P class="projectName3 description">ORANGE.Inc</P>
                 
                 </div>
-                <div class="col-md-3 image">
+                <div class="col-md-3 image mb-3">
                         <p class="projectName3 description">SOCIAL ENTERTAINMENT</p>
                         <img src="images/portfolio/img4.jpg" alt="4th image" class="projectImage4">
                     </div>
@@ -130,18 +131,20 @@
             <form id="contact-form">
                 <div class="row mt-3 user-input">
                     <div class="col">
-                        <input type="text" class="form-control" name="NAME" id="name" placeholder="Name...">
+                        <input id="name" type="text" class="form-control" name="NAME" id="name" placeholder="Name...">
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" name="EMAIL" id="email" placeholder="Email...">
+                        <input id="email" type="text" class="form-control" name="EMAIL" id="email" placeholder="Email...">
                     </div>
                 </div>
 
                     <div class="form-group mt-4 user-input">
                         <textarea id="message" cols="30" rows="9" class="form-control" placeholder="Your message here..."></textarea>
                     </div>
-                <button type="submit" class="btn btn-light mt-4">Submit</button>
+                <button type="submit" class="btn btn-light mt-4" id="submit-button">Submit</button>
             </form>
+            <p id="valid-message">Message recorded</p>
+            <p id="invalid-message">All fields required</p>
         </div>
         <footer>
             <div class="container">
