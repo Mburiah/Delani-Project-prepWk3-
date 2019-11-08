@@ -1,5 +1,5 @@
-
 	$(document).ready(function(){
+		$('#valid-message, #invalid-message').hide();
 		// What we do toggle
 
 		// ### Design ###
@@ -101,7 +101,20 @@
 			$(".projectName8").show(1000);
 		}, function(){
 			$(".projectName8").hide(1000);
-		})
+		});
+
+		$('#submit-button').click(function () {
+			if ($('#name').val() == '' || $('#email').val() == '' || $('#message').val() == '') {
+				// $('#invalid-message').show();
+				// $('#valid-message').hide();
+				alert("All fields required");
+			} else {
+				// $('#valid-message').show();
+				// $('#invalid-message').hide();
+				alert("Your message has been recieved. Thankyou!");
+			}
+		});
+
 
 	})
 
